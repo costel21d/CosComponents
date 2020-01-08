@@ -23,6 +23,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {SimpleTextInput} from './src/components/SimpleTextInput/SimpleTextInput';
 
 const App: () => React$Node = () => {
   return (
@@ -45,6 +46,7 @@ const App: () => React$Node = () => {
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits.
               </Text>
+                <SimpleTextInput value="rrr" style={{backgroundColor: 'red'}} />
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
