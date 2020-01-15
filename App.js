@@ -23,6 +23,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import SimpleTextInput from './src/components/SimpleTextInput';
+import RoundCapitalLetter from './src/components/round-component-capital-letter';
 
 const App: () => React$Node = () => {
   return (
@@ -40,6 +42,13 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
+              <RoundCapitalLetter
+                text="Aasdas as da"
+                size={64}
+                textSize={32}
+                colorsList={['pink', 'green']}
+              />
+              <SimpleTextInput value="text" placeholder="Place" />
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this

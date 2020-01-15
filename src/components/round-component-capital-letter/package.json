@@ -1,0 +1,24 @@
+{
+  "name": "react-native-cos-round-component-capital-letter",
+  "version": "1.0.0",
+  "description": "This is a simple Round Component with random background color and capital letter inside for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/costel21d/"
+  },
+  "keywords": [
+    "Round",
+    "Component",
+    "React",
+    "React-Native",
+    "Text",
+    "Capital Letter",
+    "react-native"
+  ],
+  "author": "Constantin Onu <constantin@onu.ro> (https://www.onu.ro/)",
+  "license": "ISC"
+}
