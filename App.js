@@ -43,10 +43,13 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <RoundCapitalLetter
-                text="Aasdas as da"
+                letterColor
+                text="g"
                 size={64}
                 textSize={32}
                 colorsList={['pink', 'green']}
+                imageSrc={require('CosComponents/src/components/round-component-capital-letter/assets/icons8-checkmark-24.png')}
+                imageSize={22}
               />
               <SimpleTextInput value="text" placeholder="Place" />
               <Text style={styles.sectionTitle}>Step One</Text>

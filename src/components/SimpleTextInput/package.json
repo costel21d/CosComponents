@@ -1,0 +1,24 @@
+{
+  "name": "react-native-onu-simple-text-input",
+  "version": "1.0.0",
+  "description": "This is a simple component TextInput for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/costel21d/CosComponents/tree/master/src/components/SimpleTextInput"
+  },
+  "keywords": [
+    "TextInput",
+    "Input",
+    "React",
+    "React-Native",
+    "Text",
+    "react-native",
+    "component"
+  ],
+  "author": "Constantin Onu <constantin@onu.ro> (https://www.onu.ro/)",
+  "license": "ISC"
+}

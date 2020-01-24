@@ -1,7 +1,7 @@
 {
   "name": "react-native-cos-round-component-capital-letter",
-  "version": "1.0.0",
-  "description": "This is a simple Round Component with random background color and capital letter inside for react-native",
+  "version": "1.0.2",
+  "description": "This is a simple Round Component with random background color and capital letter inside for react-native. Update: add nonRandom background rule",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
